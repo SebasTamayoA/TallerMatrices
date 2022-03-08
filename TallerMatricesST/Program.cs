@@ -25,7 +25,7 @@ namespace TallerMatricesST
 
         public static void RestarMatrices(int[,] matriz1, int[,] matriz2)
         {
-            Console.WriteLine("La resta matrical es:");
+            Console.WriteLine("La resta matricial es:");
             int[,] matriz3 = new int[matriz1.GetLength(0), matriz1.GetLength(1)];
             for (int i = 0; i < matriz1.GetLength(0); i++)
             {
